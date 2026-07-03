@@ -2,7 +2,6 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebas
 import { getAuth } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
-// TODO: Replace the following with your app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyBqxdjcy5k2HDG6t-c-4zr1PSnzdspOoQY",
   authDomain: "object-simulator.firebaseapp.com",
@@ -12,7 +11,6 @@ const firebaseConfig = {
   appId: "1:746726290134:web:881ca97514b50c2f8c8f77",
   measurementId: "G-Y89YV65TPQ"
 };
-
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
